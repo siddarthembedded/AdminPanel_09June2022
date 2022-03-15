@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+html, body { height: 100%; }
+/* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+/* .min-height-cover {
+	height:calc(100vh - 228px);
+} */
+
+ 
+.nav-link:focus {
+    text-decoration: underline;
+    background-color: #790666;
+}
+
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    justify-content: space-around;
+    flex-basis: auto;
+    text-align: center;
+    }
+	.navbar-nav{ margin-left: 50px;
+		margin-right: 50px;}
+.navbar-nav .active { text-decoration: underline; color:black;  }
+.nav-item :hover { text-decoration: underline; color:#790666;  }
+.navbar-nav>li{
+    padding-left: 40px;
+    padding-right: 40px;
+	margin-left:30px;
+}
+ 

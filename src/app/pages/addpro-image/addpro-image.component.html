@@ -1,0 +1,127 @@
+<!---- Add a Product /Manage Inventory/Edit        -->
+
+
+
+
+<section class="headimage">
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+
+      </div>
+      <div class="col-md-4 text-center">
+        <img class="imgpo mt-3" src="assets/images/EHW.png" height="300px" width="200px">
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h3> English Handwriting Book </h3>
+      </div>
+    </div>
+  </div>
+</section>
+<hr>
+<section class="navhead">
+
+  <div class="row">
+    <div class="col-md-2"> </div>
+
+    <div class="col-md-8">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav text-center me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Product Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Offer</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link  active" href="#">Images</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Description & Keywords</a>
+              </li>
+              <!-- <li class="nav-item">
+                                <a class="nav-link" href="#">Keywords</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">More details</a>
+                            </li> -->
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+
+
+
+      <div class="row  mt-3">
+        <div class="col-md-6 mt-4"> 
+          <h4 text-center>Upload Images</h4>
+          </div>
+          <div class="col-md-6 mt-4"> 
+            <!-- <button class="btn btn-primary me-3" type="submit ">Submit</button> -->
+            <button type="submit" class="btn btn-primary me-3">Save and Finish</button>
+            <button type="submit" class="btn btn-light">Cancel</button>
+          </div>
+        </div>
+        <div class="row  mt-3">
+        <div class="col-md-12">
+          
+          <div class="container img  ">
+
+          
+            <form [formGroup]="myForm" (ngSubmit)="submit()">
+
+              <!-- <div class="form-group">
+                <label for="name">Name</label>
+                <input formControlName="name" id="name" type="text" class="form-control">
+                <div *ngIf="formValue.name.touched && formValue.name.invalid" class="alert alert-danger">
+                  <div *ngIf="formValue.name.errors && formValue.name.errors.required">Name is required.</div>
+                </div>
+              </div> -->
+          
+              <div class="form-group pt-4 ">
+                <label for="file">File <br> </label> &nbsp;
+                <input formControlName="file" id="file" type="file" class="form-control-file me-3" multiple="8"
+                  (change)="onFileChange($event)"> &nbsp;&nbsp;
+                <div *ngIf="formValue.file.touched && formValue.file.invalid" class="alert alert-danger">
+                  <div *ngIf="formValue.file.errors && formValue.file.errors.required">File is required.</div>&nbsp;
+                </div>
+              </div>
+          
+              <div class="preview-wrapper">
+                <div class="img-preview" *ngFor='let url of images'>
+                  <img [src]="url" width="200px">
+                  <button type="button" class="btn btn-danger btn-sm" (click)="removeImage(url)">Remove</button>
+                </div>
+              </div>
+          
+            
+            </form>
+            
+            
+          </div>
+        </div>
+        <!-- <div class="col-md-5">
+          <button type="submit" class="btn btn-primary me-3">Save and Finish</button>
+          <button type="submit" class="btn btn-light">Cancel</button>
+        </div> -->
+      </div>
+
+    </div>
+    <div class="col-md-2"> </div>
+
+  </div>
+  <!-- </form> -->
+</section>

@@ -1,0 +1,141 @@
+  
+  
+  
+  <!-- Sidebar -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <!-- <h3>BBBOOTSTRAP</h3> -->
+        <img class="logogif" src="assets/images/anu-aca-logo.gif">
+        <hr>
+        <!-- <h3>BBBOOTSTRAP</h3> -->
+        <div class="user-pic">
+          <img class="img-responsive ml-4" src="assets/images/AEA.jpg" alt="User picture">
+          <!-- </div> -->
+          <div class="user-info">
+            <span class="user-name">
+              <strong>Devendra Kumar Sharma</strong>
+            </span>
+            <span class="user-role">Administrator</span>
+            <span class="user-status">
+              <i class="fa fa-circle"></i>
+              <span>Online</span>
+            </span>
+          </div>
+        </div>
+      </div>
+  
+      <ul class="list-unstyled components">
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" 
+             href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Catalogue
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#"> Add Products >> </a>    
+              
+          </div>
+          
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" 
+             href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Orders
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">  Manage Order >> </a>     
+            <a class="dropdown-item" href="#">  Order Reports >> </a>      
+            <a class="dropdown-item" href="#">  Sales >> </a>       
+          </div>
+          
+        </li>
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" 
+             href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Performance
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#"> >> Account Health</a>     
+            <a class="dropdown-item" href="#"> >> Feedback</a>      
+            <a class="dropdown-item" href="#"> >> Message from customers</a>       
+          </div>
+          
+        </li>
+  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" 
+             href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Advertising
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#"> >> Deals</a>     
+            <a class="dropdown-item" href="#"> >> Coupons</a>      
+            <a class="dropdown-item" href="#"> >> Exclusive Discounts</a>       
+          </div>
+          
+        </li>
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" 
+             href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#"> >> Account Management</a>     
+            <a class="dropdown-item" href="#"> >> Accounting</a>      
+            <a class="dropdown-item" href="#"> >> Domestic</a>       
+          </div>    
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" 
+             href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Growth
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#"> >> Refer a Friend</a>     
+             
+          </div>    
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" 
+             href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Holiday
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#"> >> Calendar</a>               
+          </div>    
+        </li>
+  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" 
+             href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Reports
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#"> >> Payments</a>     
+            <a class="dropdown-item" href="#"> >> Business Reports</a>      
+            <a class="dropdown-item" href="#"> >> Advertising</a>       
+            <a class="dropdown-item" href="#"> >> Commission Salary</a>       
+          </div>    
+        </li>
+  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" 
+             href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           App Store
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#"> >> Official Mobile App</a>     
+            <a class="dropdown-item" href="#"> >> Manage your Apps</a>      
+                
+          </div>    
+        </li>
+        
+        
+      </ul>
+      <ul class="list-unstyled CTAs">
+        <li> <a href="#" class="download">Subscribe</a> </li>
+      </ul>
+  
+    </nav>

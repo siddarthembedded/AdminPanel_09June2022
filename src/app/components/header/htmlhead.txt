@@ -1,0 +1,147 @@
+<!-- Reference Code: https://bbbootstrap.com/snippets/bootstrap-collapsible-sidebar-navbar-74494348 -->
+
+<div class="container-fluid">
+    <div class="row height-100">
+      <div class="col">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+    <!-- <div class="container"> -->
+      <a class="navbar-brand" href="#">
+        <img class="logogif" src="assets/images/anu-aca-logo.gif"> 
+      </a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div class="collapse navbar-collapse bg-light" id="">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-bs-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown 
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Catalogue</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <button type="button" id="sidebarCollapse" class="btn btn-info ">
+            <i class=" ag fas fa-align-justify"></i>
+          </button> 
+         
+          <li class="nav-item bg-light">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+       
+        </ul>
+      </div>
+    <!-- </div> -->
+  </nav>
+  <p> AEA Seller Central </p>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+   
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Catalogue</a>
+        <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Add Products</a></li>
+        </ul>
+  
+      </li>
+  
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Orders
+        </a>
+        <ul class="dropdown-menu" aria-labelledby ="navbarScrollingDropdown">
+          <li><a class="dropdown-item" href="#">Manage Orders</a></li>
+          <li><a class="dropdown-item" href="#">Order Reports</a></li>   
+        </ul>
+      </li>
+  
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         Inventory
+        </a>
+        <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Manage Inventory</a></li>       
+        </ul>
+      </li>
+  
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Performance
+        </a>
+        <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Account Health</a></li>
+          <li><a class="dropdown-item" href="#">Feedback</a></li>   
+          <li><a class="dropdown-item" href="#">Message from the customer </a></li>   
+        </ul>
+      </li>
+  
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Advertising 
+        </a>
+        <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Deals</a></li>
+          <li><a class="dropdown-item" href="#">Coupons</a></li>   
+          <li><a class="dropdown-item" href="#">Exclusive Discounts</a></li>   
+          <li><a class="dropdown-item" href="#">Promotions</a></li>    
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Services
+        </a>
+        <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Account Management</a></li>
+          <li><a class="dropdown-item" href="#">Accounting</a></li>   
+          <li><a class="dropdown-item" href="#">Domestic Shipping</a></li>   
+        
+        </ul>
+      </li>
+  
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Growth
+        </a>
+        <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Refer a Friend</a></li>
+             
+        </ul>
+      </li>
+  
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         Reports
+        </a>
+        <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Payments</a></li>
+          <li><a class="dropdown-item" href="#">Business Reports</a></li>   
+          <li><a class="dropdown-item" href="#">Advertising</a></li>   
+          <li><a class="dropdown-item" href="#">Comission Salary</a></li>    
+        </ul>
+      </li>
+  
+      <li class="nav-item">
+        <a class="nav-link" href="#">Holiday</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">AppStore</a>
+      </li>
+    </ul>
+      
+    <!-- </div> -->
+  </nav>
+  <!----------Nav ends -->
+  
+  </div>
+  </div>
+  </div>
+  

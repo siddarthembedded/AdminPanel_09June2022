@@ -1,0 +1,105 @@
+body {
+    background-image: linear-gradient(rgba(88, 86, 86, 0.6), rgba(180, 180, 180, 0.6)), url(src/assets/images/lb.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center
+}
+
+
+.login_page {
+    width: 360px;
+    /* height:300px; */
+    padding: 10% 0 0;
+    margin: auto; 
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background:#fff;
+     /* rgba(7, 40, 195, 0.8); */
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: left;
+    border-radius: 2px;
+    font-family: 'lato';
+    border:2px solid #790666;
+}
+.user-pic img{
+    height: 20%;
+            width: 20%;
+            border-radius: 50%;
+            align-items: center;  
+            /* border:1px solid #790666; */
+}
+.user-name  {
+    /* display: block; */
+    color:#000;
+    text-transform: uppercase;
+  }
+.form input {
+    font-family: "Lato";
+    outline: 4;
+    width: 100%;
+    border: 0;
+    margin: 0 0 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.form button {
+    font-family: "Lato";
+    text-transform: uppercase;
+    outline: 0;
+    background:#790666;
+     /* #790666; */
+     /* #4CAF50; */
+    width: 100%;
+    border: 2;
+    border-radius: 4px;
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer
+}
+.form button .btn_login{
+   
+
+}
+.form button:hover,
+.form button:active {
+    background: #fff;
+    color:#790666;
+    border-color: #790666;
+    /* #43A047 */
+}
+
+.form .message {
+    /* margin: 15px 0 0; */
+    color: #790666;
+    font-size: 14px;
+}
+
+.form .message a {
+    color: #790666;
+    text-decoration: none;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.form .register_form {
+    display: none
+    
+}
+.form .head{
+    color:#790666;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'lato';
+    justify-content:left;
+}
+
+

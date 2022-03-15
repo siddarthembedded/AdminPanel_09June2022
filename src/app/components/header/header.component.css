@@ -1,0 +1,115 @@
+.aea{
+    background-color:#790666;
+    color:#fafafa;
+    font-size: 25px;
+    font-family: 'Lora',sans-serif;
+    font-weight:800px;
+    text-decoration: solid;
+    width:100%;
+    height:50px;
+   
+}
+
+.logogif{
+     width: 290px;
+    height: 54px; 
+}
+
+.ag{
+    color:#790666;
+    background-color: #fafafa;
+    width:15px;
+    height:9px;
+ }
+ 
+.btn-info{
+    background-color: #fafafa;
+    border-color: #790666;
+}
+/*******************************/
+
+/* 
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s
+} */
+
+.navbar {  
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    /* box-shadow: 1px 1px 3px rgba(243, 241, 241, 0.1) */
+}
+
+.nav-item {
+
+    
+    color:#790666;
+    font-size: 10px;
+    font-family: 'Lato',sans-serif;
+   
+    
+}
+.nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); color:#790666;}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #790666;
+    font-size: 14px;
+    font-family: 'Lato',sans-serif;
+    
+    }
+    
+    /* .fade-up{ top:180%;  } */
+    
+/* .btnsignin{
+    background-color: #790666;
+    color:#fff;
+    padding: 10px 10px ;/*10px 6px; 
+} 
+ */
+
+/*300-350*/
+
+.nav-link{
+    font-family: Lato;
+    font-size: 16px;
+    font-style: bold;
+    display:block;
+    color: #790666;
+    
+}
+
+
+.dropdown-menu{
+    font-family: Lato;
+    font-size: 14px;
+    font-style: regular;
+    /* display:block; */
+}
+
+
+.dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+.dropdown-item{
+    font-size: 12px;
+    font-family: 'Lato',sans-serif;
+
+}
+/* .dropdown-item .submenu{ 
+     display: block; 
+    position: absolute;
+    left:100%; top:0px;
+    font-size: 10px;
+    font-family: 'Lato',sans-serif;
+} */
+/* .dropdown-menu:hover.submenu{ display: block; } */
+/* .fade-up{ top:180%;  } */
+/* .dropdown-menu > li:hover > .submenu{ display: block;color:#790666; font-size: 10px;
+    font-family: 'Lato',sans-serif; top: 0px; } */
+.hide {     display: none;  }
+
+  
+
+  

@@ -1,0 +1,238 @@
+   <!---Side Bar---->
+  <nav id="sidebar">
+        <div class="sidebar-header">
+          <!-- <h3>BBBOOTSTRAP</h3> -->
+          <img class="logogif" src="assets/images/anu-aca-logo.gif">
+          <hr>
+          <!-- <h3>BBBOOTSTRAP</h3> -->
+          <div class="user-pic">
+            <img class="img-responsive ml-4" src="assets/images/AEA.jpg" alt="User picture">
+            <!-- </div> -->
+            <div class="user-info">
+              <span class="user-name">
+                <strong>Devendra Kumar Sharma</strong>
+              </span>
+              <span class="user-role">Administrator</span>
+              <span class="user-status">
+                <i class="fa fa-circle"></i>
+                <span>Online</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <ul class="list-unstyled components">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Catalogue
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"> Add Products >> </a>
+
+            </div>
+
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Orders
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"> Manage Order >> </a>
+              <a class="dropdown-item" href="#"> Order Reports >> </a>
+              <a class="dropdown-item" href="#"> Sales >> </a>
+            </div>
+
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Performance
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"> >> Account Health</a>
+              <a class="dropdown-item" href="#"> >> Feedback</a>
+              <a class="dropdown-item" href="#"> >> Message from customers</a>
+            </div>
+
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Advertising
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"> >> Deals</a>
+              <a class="dropdown-item" href="#"> >> Coupons</a>
+              <a class="dropdown-item" href="#"> >> Exclusive Discounts</a>
+            </div>
+
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"> >> Account Management</a>
+              <a class="dropdown-item" href="#"> >> Accounting</a>
+              <a class="dropdown-item" href="#"> >> Domestic</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Growth
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"> >> Refer a Friend</a>
+
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Holiday
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"> >> Calendar</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Reports
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"> >> Payments</a>
+              <a class="dropdown-item" href="#"> >> Business Reports</a>
+              <a class="dropdown-item" href="#"> >> Advertising</a>
+              <a class="dropdown-item" href="#"> >> Commission Salary</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              App Store
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#"> >> Official Mobile App</a>
+              <a class="dropdown-item" href="#"> >> Manage your Apps</a>
+
+            </div>
+          </li>
+
+
+        </ul>
+        <ul class="list-unstyled CTAs">
+          <li> <a href="#" class="download">Subscribe</a> </li>
+        </ul>
+
+      </nav> 
+ 
+ 
+ <!---Blocks---->
+ <div class="content-wrapper">
+          <!--Sale :  Small Box (Stat card) -->
+          <h2 class="texthead ">Sale</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <!-- small card -->
+              <div class="small-box " style=" border:1px solid #007BFF;
+              background-color:#007BFF;
+              color:#fff;">
+                <p class="text pt-2 " style=" background-color:#007BFF;  
+                  color:#fff;">15000 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                  <span class="icon"> <i class="fas fa-shopping-cart "></i> </span>
+                  <br><strong> Total</strong>
+                </p>
+                <!-- <a href="#" class="small-box-footer">
+                More info <i class="fas fa-arrow-circle-right"></i>
+              </a> -->
+              </div>
+            </div> <!-- ./col -->
+
+          </div>
+
+          <!--Orders :  Small Box (Stat card) -->
+          <h2 class="texthead mt-5">Orders</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <!-- small card -->
+              <div class="small-box ml-2" style=" border:1px solid #17A2B8;
+                                                background-color:#17A2B8;
+                                                color:#fff;">
+                <p class="text pt-2 " style=" background-color:#17A2B8;  
+                                      color:#fff;">
+                  500 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                  <span class="icon"> <i class="fas fa-shopping-bag "></i> </span>
+                  <br><strong> New</strong>
+                </p>
+                <!-- <a href="#" class="small-box-footer">
+                More info <i class="fas fa-arrow-circle-right"></i>
+              </a> -->
+              </div>
+            </div> <!-- ./col -->
+            <div class="col-md-6">
+              <!-- small card -->
+              <div class="small-box ml-2" style=" border:1px solid #28A745;
+                                                background-color:#28A745;
+                                                color:#fff;">
+                <p class="text pt-2" style=" background-color:#28A745;  
+                                      color:#fff;">
+                  500 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                  <span class="icon"> <i class="fas fa-tasks"></i> </span>
+                  <br><strong> Total</strong>
+                </p>
+                <!-- <a href="#" class="small-box-footer">
+                More info <i class="fas fa-arrow-circle-right"></i>
+              </a> -->
+              </div>
+            </div> <!-- ./col -->
+          </div>
+
+          <!--User :  Small Box (Stat card) -->
+          <h2 class="texthead mt-5">User</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <!-- small card -->
+              <div class="small-box ml-2" style=" border:1px solid #FFC107;
+                                                background-color:#FFC107;
+                                                color:#fff;">
+                <p class="text pt-2" style=" background-color:#FFC107;  
+                                      color:#fff;">
+                  500 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                  <span class="icon"> <i class="fas fa-user-plus"></i> </span>
+                  <br><strong> Registered</strong>
+                </p>
+                <!-- <a href="#" class="small-box-footer">
+                More info <i class="fas fa-arrow-circle-right"></i>
+              </a> -->
+              </div>
+            </div> <!-- ./col -->
+            <div class="col-md-6 ">
+              <!-- small card -->
+              <div class="small-box ml-4" style=" border:1px solid #DC3545;
+                                                background-color:#DC3545;
+                                                color:#fff;">
+                <p class="text pt-2 " style=" background-color:#DC3545;  
+                                      color:#fff;">
+                  100 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+                  <span class="icon ml-5"> <i class="fas fa-handshake fa-1x"></i> </span>
+                  <br><strong> Unique Partners</strong>
+                </p>
+                <!-- <a href="#" class="small-box-footer">
+                More info <i class="fas fa-arrow-circle-right"></i>
+              </a> -->
+              </div>
+            </div> <!-- ./col -->
+          </div>
+
+        </div>
