@@ -1,0 +1,16 @@
+.pcontent {
+    width: 100%;
+    padding: 10px;
+    /* min-height: 100vh; */
+    transition: all 0.3s
+}
+.phead{
+    display: block;
+    width:100%;
+    height:40px;
+    color: #fff;
+    background-color: #790666;
+    font-size: 24px;
+    font-family: 'Lato',sans-serif;
+    
+}

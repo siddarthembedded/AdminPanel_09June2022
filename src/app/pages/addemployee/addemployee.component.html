@@ -1,0 +1,499 @@
+<!----- Modal is pending on clicking del button-->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #790666;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Salary</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item ms-3 ps-3">
+                    <a class="nav-link  " aria-current="page" href="#">PayProcess</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Employee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Department</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Advance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Commission</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Deductions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Increment</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!---https://www.codeply.com/p/WGCqYEiPBg --->
+
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <!-- <span class="fs-5 d-none d-sm-inline">Menu</span> -->
+                </a>
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link align-middle px-0">
+                            <i class="fas-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Personal Data</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Address</span>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Educational
+                                Qualifications</span></a>
+                    </li>
+                    <li>
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                            <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Previous
+                                Employer</span></a>
+                    </li>
+
+
+                </ul>
+                <hr>
+
+            </div>
+        </div>
+        <!---Personal Data-->
+      <div class="col py-3">
+            <form>
+                <div class="row mb-3">
+                    <label for="inputpf" class="col-sm-2 col-form-label">Type of Address</label>
+                    <div class="col-md-3">
+                        <select id="inputpf" class="form-select">
+                            <option selected>Mr.</option>
+                            <option>Ms.</option>
+                            <option>Mrs.</option>
+                         
+
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="fname" class="col-sm-2 col-form-label">First Name</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="fname">
+                    </div>
+                    <label for="lname" class="col-sm-2 ps-5 mt-2">Last Name</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="lname">
+                    </div>
+                </div>
+                <div class="row mb-3 mt-4">
+                    <label for="mname" class="col-sm-2 col-form-label">Middle Name</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="mname">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="phone" class="col-sm-2 col-form-label">Mobile Number</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="phone">
+                    </div>
+                    <label for="phone1" class="col-sm-2 col-form-label">Emergency Number</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="phone1">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="mstatus" class="col-sm-2 col-form-label">Marital Status</label>
+                    <div class="col-md-3">
+                        <select id="mstatus" class="form-select">
+                            <option selected>Married</option>
+                            <option>Single</option>
+                            <option>Divorced</option>
+                            <option>Widow</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="nati" class="col-sm-2 col-form-label">Nationality</label>
+                    <div class="col-md-3">
+                        <select id="nati" class="form-select">
+                            <option selected>Indian</option>
+                            <option>NRI</option>
+                            <option>Foreigner</option>    
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="cob" class="col-sm-2 col-form-label">Country of Birth</label>
+                    <div class="col-md-3">
+                        <select id="cob" class="form-select">
+                            <option selected>India</option>
+                            <option>USA</option>
+                            <option>UK</option>    
+                        </select>
+                    </div>
+                </div>
+               <div class="row mb-3">
+                    <label for="sob" class="col-sm-2 col-form-label">State of Birth</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="sob">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="ciob" class="col-sm-2 col-form-label">City of Birth</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="ciob">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="ciob" class="col-sm-2 col-form-label">City of Birth</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="ciob">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                  
+                    <label for="ciob" class="col-sm-2 col-form-label">Gender</label>
+                    <div class="col-md-3">
+                        <input class="form-check-input mt-2" type="radio" name="radioDefault" id="formRadioDefault">
+                        <label class="form-check-label mt-2" for="formRadioDefault">&nbsp; Male</label> &nbsp;
+                        <input class="form-check-input mt-2" type="radio" name="radioDefault" id="formRadioDefault">
+                        <label class="form-check-label mt-2" for="formRadioDefault">&nbsp; Female</label> &nbsp;
+                        <input class="form-check-input  mt-2" type="radio" name="radioDefault" id="formRadioDefault">
+                        <label class="form-check-label mt-2" for="formRadioDefault">&nbsp; Other</label> &nbsp;
+                      </div>
+                 
+                </div>
+                <div class="row mb-3 mt-2">
+                    <div class="col-md-3">
+          
+                    </div>
+                    <div class="col-md-5">
+                      <button type="submit" class="btn btn-primary me-3">Submit</button>
+                      <button type="submit" class="btn btn-light">Reset</button>
+                    </div>
+                  </div>
+            </form>
+        </div>
+        <!---Address
+          <div class="col py-3">
+            <form>
+                <div class="row mb-3">
+                    <label for="inputpf" class="col-sm-2 col-form-label">Address Type</label>
+                    <div class="col-md-3">
+                        <select id="inputpf" class="form-select">
+                            <option selected>Permanent</option>
+                            <option>Current</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="hnos" class="col-sm-2 col-form-label">House No & Street</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="hnos">
+                    </div>
+                    
+                </div>
+                <div class="row mb-3">
+                    <label for="hnos" class="col-sm-2 col-form-label">Second Address</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="hnos">
+                    </div>
+                    
+                </div>
+
+               
+              
+                <div class="row mb-3">
+                    <label for="cob" class="col-sm-2 col-form-label">Country</label>
+                    <div class="col-md-3">
+                        <select id="cob" class="form-select">
+                            <option selected>India</option>
+                            <option>USA</option>
+                            <option>UK</option>    
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="state" class="col-sm-2 col-form-label">State</label>
+                    <div class="col-md-3">
+                        <select id="state" class="form-select">
+                            <option selected>India</option>
+                            <option>USA</option>
+                            <option>UK</option>    
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="city" class="col-sm-2 col-form-label">City</label>
+                    <div class="col-md-3">
+                        <select id="city" class="form-select">
+                            <option selected>India</option>
+                            <option>USA</option>
+                            <option>UK</option>    
+                        </select>
+                    </div>
+                </div>
+               <div class="row mb-3">
+                    <label for="pc" class="col-sm-2 col-form-label">Pincode </label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="pc">
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="input-group">
+                    <label for="pc" class="col-sm-2 col-form-label">Disclaimer </label>
+                    
+                        <div class="input-group-text ms-1">
+                          <input class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input">
+                        </div> &nbsp;
+                       
+                        <p class="text-center mt-2 ms-2"> I undertake the address details as provided by me are true & correct. 
+                            I shall be solely responsible for any wrong or incomplete address details.</p>
+                      </div>
+                </div>
+                <div class="row mb-3 mt-2">
+                    <div class="col-md-3">
+          
+                    </div>
+                    <div class="col-md-5">
+                      <button type="submit" class="btn btn-primary me-3">Submit</button>
+                      <button type="submit" class="btn btn-light">Save</button>
+                    </div>
+                  </div>
+            </form>
+        </div> 
+    -->
+        <!---Qualification-->
+        <!--<div class="col py-3">
+
+            <form>
+                <div class="row mb-3">
+                    <label for="inputpf" class="col-sm-2 col-form-label">Highest Education</label>
+                    <div class="col-md-3">
+                        <select id="inputpf" class="form-select">
+                            <option selected>Secondary </option>
+                            <option>Senior Secondary</option>
+                            <option selected>Graduation </option>
+                            <option>Post Graduation</option>
+                            <option selected>Phd</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <label for="inputssd" class="col-sm-2 col-form-label">From</label>
+                    <div class="col-md-3 ms-1">
+                      <input type="date" id="inputssd" value="2014-02-09">
+                    </div>
+                    <label for="myDate" class="col-sm-2 col-form-label">To</label>
+                    <div class="col-md-3">
+                      <input type="date" id="myDate" value="2014-02-09">
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="cert" class="col-sm-2 col-form-label">Certificate</label>
+                    <div class="col-md-3">
+                        <select id="cert" class="form-select">
+                            <option selected>10th </option>
+                            <option>12th</option>
+                           
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="boun" class="col-sm-2 col-form-label">Board /University</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="boun">
+                    </div>
+                    
+                </div>
+
+               
+              
+                <div class="row mb-3">
+                    <label for="cob" class="col-sm-2 col-form-label">Country</label>
+                    <div class="col-md-3">
+                        <select id="cob" class="form-select">
+                            <option selected>India</option>
+                            <option>USA</option>
+                            <option>UK</option>    
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="state" class="col-sm-2 col-form-label">Industry</label>
+                    <div class="col-md-3">
+                        <select id="state" class="form-select">
+                            <option selected>Administrative</option>
+                            <option>Software</option>
+                            
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="ed" class="col-sm-2 col-form-label">Entry Designation </label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="ed">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="ed1" class="col-sm-2 col-form-label">Exit Designation </label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="ed1">
+                    </div>
+                </div>
+
+                <div class="row mb-3 mt-2">
+                    <div class="col-md-3">         
+                    </div>
+                    <div class="col-md-5">
+                        <button type="submit" class="btn btn-primary me-3">Next</button>
+                        <button type="submit" class="btn btn-light me-3">Cancel</button>
+                      <button type="submit" class="btn btn-primary me-3">Submit</button>             
+                    </div>
+                  </div>
+            </form> 
+     
+        </div>
+           ----->
+        <!--Previous Employer
+        <div class="col py-3">
+
+            <form>
+                <div class="input-group mb-3">
+                    <label for="inputssd" class="col-sm-2 col-form-label">Valid From</label>
+                    <div class="col-md-6 ms-1">
+                        <input type="date" id="inputssd" value="2014-02-09">
+                   
+                    <label for="myDate" class="col-sm-2 col-form-label ms-5">Valid To</label>
+                    
+                        <input type="date" id="myDate" value="2014-02-09">
+                   
+                </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="noe" class="col-sm-2 col-form-label">Name of Employer</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="noe">
+                    </div>
+
+                </div>
+
+                <div class="row mb-3">
+                    <label for="inputpf" class="col-sm-2 col-form-label">Function</label>
+                    <div class="col-md-3">
+                        <select id="inputpf" class="form-select">
+                            <option selected>Administration Support </option>
+                            <option>Chairman's Office</option>
+                            <option >Finance & Accounting </option>
+                            <option>Hardware Design Support</option>
+                            <option >Human Resources </option>
+                            <option>Investor Relations</option>
+                            <option>Management Information System</option>
+                            <option >Operations </option>
+                            <option>Quality</option>
+                            <option>Sales & Marketing</option>
+                            <option >Sales & Marketing Support </option>
+                            <option>Secretrial Function</option>
+                            <option>Software Projects & Engg.</option>
+                            <option>Special Projects</option>
+                            <option >Technical Training  </option>
+                            <option>Technical Writers </option>
+                           
+                           
+                        </select>
+                    </div>
+                </div>
+            
+                <div class="row mb-3">
+                    <label for="citi" class="col-sm-2 col-form-label">City</label>
+                    <div class="col-md-3">
+                        <select id="citi" class="form-select">
+                            <option selected>Delhi/NCR </option>
+                            <option>Agra</option>
+
+                        </select>
+                    </div>
+                </div>
+              
+                <div class="row mb-3">
+                    <label for="state" class="col-sm-2 col-form-label">State</label>
+                    <div class="col-md-3">
+                        <select id="state" class="form-select">
+                            <option selected>Delhi </option>
+                            <option>  U.P</option>
+
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="row mb-3">
+                    <label for="cob" class="col-sm-2 col-form-label">Country</label>
+                    <div class="col-md-3">
+                        <select id="cob" class="form-select">
+                            <option selected>India</option>
+                            <option>USA</option>
+                            <option>UK</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="state" class="col-sm-2 col-form-label">Industry</label>
+                    <div class="col-md-3">
+                        <select id="state" class="form-select">
+                            <option selected>Administrative</option>
+                            <option>Software</option>
+                            
+                        </select>
+                    </div>
+                </div>  
+                <div class="row mb-3">
+                    <label for="ed" class="col-sm-2 col-form-label">Entry Designation </label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="ed">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="ed1" class="col-sm-2 col-form-label">Exit Designation </label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="ed1">
+                    </div>
+                </div>
+
+
+
+                <div class="row mb-3 mt-2">
+                    <div class="col-md-3">
+
+                    </div>
+                    <div class="col-md-5">
+                        <button type="submit" class="btn btn-primary me-3">Next</button>
+                        <button type="submit" class="btn btn-light me-3">Cancel</button>
+                        <button type="submit" class="btn btn-primary me-3">Submit</button>
+
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    -->
+
+
+
+    </div>

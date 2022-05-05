@@ -19,7 +19,7 @@ export class AddproImageComponent implements OnInit {
 
   constructor(private http: HttpClient) { }
 
-  get formValue() {
+  get f() {
     return this.myForm.controls;
   }
 
@@ -28,9 +28,12 @@ export class AddproImageComponent implements OnInit {
       var filesAmount = event.target.files.length;
       for (let i = 0; i < filesAmount; i++) {
         var reader = new FileReader();
+
         reader.onload = (event: any) => {
-          // Push Base64 string
+          console.log(event.target.result);
           this.images.push(event.target.result);
+
+         
           this.patchValues();
         }
         reader.readAsDataURL(event.target.files[i]);

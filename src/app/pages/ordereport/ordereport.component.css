@@ -1,0 +1,45 @@
+
+.orcontent {
+    width: 100%;
+    padding: 10px;
+    /* min-height: 100vh; */
+    transition: all 0.3s
+}
+.orhead{
+    display: block;
+    width:100%;
+    height:40px;
+    color: #fff;
+    background-color: #790666;
+    font-size: 24px;
+    font-family: 'Lato',sans-serif;
+    
+}
+.orundercontent{
+    display: block;
+    width:100%;
+    height:40px;
+    color: #790666;
+    background-color: #fcfcfc;
+    font-size: 18px;
+    font-family: 'Lato',sans-serif;
+    
+}
+.btn-primary1{
+    border-radius: 5px;
+    border-color: #790666;
+  
+}
+.card-text{
+    font-size: 13px;
+    font-family: 'Lora',sans-serif;
+}
+
+.dropdown-menu>li{
+    color: #efefef;
+    font-size:12px;
+    font-family: 'Lato',sans-serif;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    }

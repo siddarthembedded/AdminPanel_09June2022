@@ -1,0 +1,53 @@
+.cdcontent {
+    width: 100%;
+    padding: 10px;
+    /* min-height: 100vh; */
+    transition: all 0.3s
+}
+.cdhead{
+    display: block;
+    width:100%;
+    height:40px;
+    color: #fff;
+    background-color: #790666;
+    font-size: 24px;
+    font-family: 'Lato',sans-serif;
+    
+}
+
+    .table{
+        width:100%;
+        
+    }
+    th { 
+        
+        color: #50464e;
+        font-weight: regular;
+        font-family: lato; 
+        font-size: 14px;
+        border-spacing: 15px;
+        }
+    
+    td, th { 
+    
+        border: none;
+        text-align: left;
+        font-size: 14px;
+        }
+    
+   
+    
+    /* .form-control:focus {
+        border: none;
+        box-shadow: none
+    } */
+    .fd{
+        font-size: medium;
+        font-size: 18px;
+        font-family: 'Lato',sans-serif; 
+        color:#790666;
+
+    }
+    .fd .list-group-item{
+        color:#790666;
+    }
