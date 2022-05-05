@@ -42,7 +42,7 @@
 .dropdown-menu>li{
     color: #efefef;
     font-size:10px;
-    font-family: 'Lora',sans-serif;
+    font-family: "Lora",sans-serif;
 }
 .dropdown:hover .dropdown-menu {
     display: block;
