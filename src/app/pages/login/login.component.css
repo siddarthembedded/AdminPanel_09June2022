@@ -65,10 +65,7 @@ body {
     font-size: 14px;
     cursor: pointer
 }
-.form button .btn_login{
-   
 
-}
 .form button:hover,
 .form button:active {
     background: #fff;
