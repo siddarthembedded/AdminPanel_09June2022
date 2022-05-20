@@ -1,0 +1,108 @@
+
+<!---------------                                   
+    Franchise Edit & Delete :
+    Edit or Delete a particular franchise: 
+    * U can edit the details 
+    * Fetch from the database and click on edit icon
+    
+    
+    
+------------------>
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #790666;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Salary</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item ms-3 ps-3">
+                    <a class="nav-link  " aria-current="page" href="#">PayProcess</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Employee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Department</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Advance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Commission</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Deductions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Increment</a>
+                </li>
+            </ul>        
+        </div>
+    </div>
+</nav>
+
+
+<!-- Tabs or Pills can be used in a card with the help of .nav-{tabs|pills} and .card-header-{tabs|pills} classes -->
+<div class="card">
+   
+    <div class="card-body">
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            
+            <div class="row">
+    
+            <aside class="col-md-12 ms-4 mt-2">
+               
+                <table class="table  table-borderless table-hover table-responsive ">
+                    <thead>
+                        <tr class="table-light ms-4 align-items-center  ">
+                            <th scope="col "> 
+                                <input class=" chkbox form-check-input" type="checkbox"> 
+                            </th>
+                            <th scope="col" width="3%"> S.No </th>
+                            <th scope="col" width="10%"> UID Code </th>
+                            <th scope="col" width="10%"> Franchise Name </th>
+                            <th scope="col" width="10%"> Email</th>
+                            <th scope="col" width="10%"> Mobile Number</th>
+                            <th scope="col" width="10%"> City</th>
+                            <th scope="col" width="10%">State</th>
+                            <th scope="col" width="10%"> Edit </th>
+                            <th scope="col" width="10%"> Delete </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"> <input class="form-check-input mt-2" type="checkbox"> </th>
+                            <td> 1.</td>
+                            <td> IT001 </td>
+                            <td> Madhavi </td>
+                            <td> xyz@gmail.com</td>
+                            <td> 91-98912347471</td>
+                            <td> Madhapur</td>
+                            <td>Hyderabad</td>
+                            
+                            
+                            <td> <i class="update fa fa-edit"></i></td>
+                            <td> <i class="trash fas fa-trash"></i></td>
+                            <!-- <td> <button class=" btn-outline-primary">Next</button></td>
+                            <td> <button class=" btn-outline-primary">Back</button></td> -->
+                            <!-- <td> <button class=" btn-outline-primary">Print</button></td> -->
+                        </tr>
+                    </tbody>
+                </table>
+            </aside>
+            </div>
+        
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            
+         
+
+        </div>
+      </div>
+    </div>
+  </div>

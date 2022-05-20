@@ -27,6 +27,9 @@ import { EmployeedelComponent } from './pages/employeedel/employeedel.component'
 import { AddemployeeComponent } from './pages/addemployee/addemployee.component';
 import { CalendarComponent } from './pages/calendar/calendar.component';
 import { FranchiseComponent} from './pages/franchise/franchise.component';
+import { DisFranchiseComponent } from './pages/dis-franchise/dis-franchise.component';
+import { FranchiselistComponent } from './pages/franchiselist/franchiselist.component';
+import { FranchiseditComponent } from './pages/franchisedit/franchisedit.component';
 
 const routes: Routes = [
   {path:"header",component:HeaderComponent},
@@ -54,7 +57,10 @@ const routes: Routes = [
   {path:"employeedel",component:EmployeedelComponent},
   {path:"addemployee",component:AddemployeeComponent},
   {path:"calendar",component:CalendarComponent},
-  {path:"franchise" ,component:FranchiseComponent}
+  {path:"franchise" ,component:FranchiseComponent},
+  {path:"dis-franchise",component:DisFranchiseComponent},
+  {path:"franchiselist",component:FranchiselistComponent},
+  {path:"franchisedit",component:FranchiseditComponent}
 ];
 @NgModule({
   declarations: [],

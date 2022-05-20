@@ -1,3 +1,12 @@
+
+<!---------------                                   
+    Franchise Edit :
+    U can edit the details of user 
+    fetch from the database and click on edit icon
+    
+    
+    
+------------------>
 <div class="container-fluid">
     <div class="row flex-nowrap">
         <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-light">
@@ -5,17 +14,16 @@
                 <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                     <!-- <span class="fs-5 d-none d-sm-inline">Menu</span> -->
                 </a>
-                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link align-middle px-0 ">
-                           <span class="ms-1 d-none d-sm-inline active">New</span>
-
-                         
+                <ul class="disabled nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+                    id="menu">
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link align-middle px-0 disabled">
+                            <span class="  ms-1 d-none d-sm-inline ">New</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" data-bs-toggle="collapse" class="disabled nav-link px-0 align-middle">
-                             <span class="ms-1 d-none d-sm-inline">Edit</span>
+                        <a href="#" data-bs-toggle="collapse" class="  nav-link px-0 align-middle">
+                            <span class="ms-1 d-none d-sm-inline active ">Edit</span>
                         </a>
                     </li>
                     <!-- <li>
@@ -33,41 +41,71 @@
                 <div class="row mb-3">
                     <label for="inputpf" class="col-sm-2 col-form-label">Type of Address</label>
                     <div class="col-md-3">
-                        <select id="inputpf" class="form-select">
+                        <select id="inputpf" class="form-select" readonly>
                             <option selected>Mr.</option>
                             <option>Ms.</option>
                             <option>Mrs.</option>
                         </select>
                     </div>
+                    <div class="col-md-1">
+                        <i class="update fa fa-edit"></i>
+                    </div>
                 </div>
                 <div class="row mb-3">
                     <label for="fname" class="col-sm-2 col-form-label">First Name</label>
+
                     <div class="col-md-3">
-                        <input type="text" class="form-control" id="fname">
+
+                        <input type="text" class="form-control" id="fname" readonly>
                     </div>
-                    <label for="lname" class="col-sm-2 ps-5 mt-2">Last Name</label>
+                    <div class="col-md-1">
+                        <i class="update fa fa-edit"></i>
+                    </div>
+
+
+                </div>
+
+                <div class="row mb-3 mt-4">
+                    <label for="lname" class="col-sm-2 col-form-label">Last Name</label>
                     <div class="col-md-3">
-                        <input type="text" class="form-control" id="lname">
+                        <input type="text" class="form-control" id="lname"readonly>
+                    </div>
+                    <div class="col-md-1">
+                        <i class="update fa fa-edit"></i>
                     </div>
                 </div>
+
                 <div class="row mb-3 mt-4">
                     <label for="mname" class="col-sm-2 col-form-label">Middle Name</label>
                     <div class="col-md-3">
-                        <input type="text" class="form-control" id="mname">
+                        <input type="text" class="form-control" id="mname" readonly>
+                    </div>
+                    <div class="col-md-1">
+                        <i class="update fa fa-edit"></i>
                     </div>
                 </div>
 
                 <div class="row mb-3">
                     <label for="phone" class="col-sm-2 col-form-label">Mobile Number</label>
                     <div class="col-md-3">
-                        <input type="text" class="form-control" id="phone">
+                        <input type="text" class="form-control" id="phone" readonly>
                     </div>
-                    <label for="phone1" class="col-sm-2 col-form-label">Emergency Number</label>
-                    <div class="col-md-3">
-                        <input type="text" class="form-control" id="phone1">
+                    <div class="col-md-1">
+                        <i class="update fa fa-edit"></i>
                     </div>
+
+
                 </div>
                 <div class="row mb-3">
+                    <label for="phone1" class="col-sm-2 col-form-label">Emergency Number</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="phone1" readonly>
+                    </div>
+                    <div class="col-md-1">
+                        <i class="update fa fa-edit"></i>
+                    </div>
+                </div>
+                <!-- <div class="row mb-3">
                     <label for="mstatus" class="col-sm-2 col-form-label">Marital Status</label>
                     <div class="col-md-3">
                         <select id="mstatus" class="form-select">
@@ -77,8 +115,8 @@
                             <option>Widow</option>
                         </select>
                     </div>
-                </div>
-                <div class="row mb-3">
+                </div> -->
+                <!-- <div class="row mb-3">
                     <label for="nati" class="col-sm-2 col-form-label">Nationality</label>
                     <div class="col-md-3">
                         <select id="nati" class="form-select">
@@ -87,32 +125,42 @@
                             <option>Foreigner</option>    
                         </select>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="row mb-3">
-                    <label for="cob" class="col-sm-2 col-form-label">Country of Birth</label>
-                    <div class="col-md-3">
-                        <select id="cob" class="form-select">
-                            <option selected>India</option>
-                            <option>USA</option>
-                            <option>UK</option>    
-                        </select>
-                    </div>
-                </div>
-               <div class="row mb-3">
-                    <label for="sob" class="col-sm-2 col-form-label">State of Birth</label>
-                    <div class="col-md-3">
-                        <input type="text" class="form-control" id="sob">
-                    </div>
-                </div>
+
                 <div class="row mb-3">
                     <label for="ciob" class="col-sm-2 col-form-label">City of Birth</label>
                     <div class="col-md-3">
-                        <input type="text" class="form-control" id="ciob">
+                        <input type="text" class="form-control" id="ciob" readonly>
+                    </div>
+                    <div class="col-md-1">
+                        <i class="update fa fa-edit"></i>
                     </div>
                 </div>
-              
                 <div class="row mb-3">
+                    <label for="sob" class="col-sm-2 col-form-label">State of Birth</label>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="sob" readonly>
+                    </div>
+                    <div class="col-md-1">
+                        <i class="update fa fa-edit"></i>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="cob" class="col-sm-2 col-form-label">Country of Birth</label>
+                    <div class="col-md-3">
+                        <select id="cob" class="form-select" readonly>
+                            <option selected>India</option>
+                            <option>USA</option>
+                            <option>UK</option>
+                        </select>
+                    </div>
+                    <div class="col-md-1">
+                        <i class="update fa fa-edit"></i>
+                    </div>
+                </div>
+
+                <!-- <div class="row mb-3">
                   
                     <label for="ciob" class="col-sm-2 col-form-label">Gender</label>
                     <div class="col-md-3">
@@ -123,16 +171,16 @@
                         <input class="form-check-input mt-2" type="radio" name="radioDefault" id="formRadioDefault">
                         <label class="form-check-label mt-2" for="formRadioDefault">&nbsp; Other</label> &nbsp;
                       </div>               
-                </div>
+                </div> -->
                 <div class="row mb-3 mt-2">
                     <div class="col-md-3">
-          
+
                     </div>
                     <div class="col-md-5">
-                      <button type="submit" class="btn btn-primary me-3">Submit</button>
-                      <button type="submit" class="btn btn-light">Reset</button>
+                        <button type="submit" class="btn btn-primary me-3">Edit</button>
+                        <button type="submit" class="btn btn-light">Cancel</button>
                     </div>
-                  </div>
+                </div>
             </form>
         </div>
     </div>

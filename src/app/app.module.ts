@@ -45,6 +45,9 @@ import { EmployeedelComponent } from './pages/employeedel/employeedel.component'
 import { AddemployeeComponent } from './pages/addemployee/addemployee.component';
 import { CalendarComponent } from './pages/calendar/calendar.component';
 import { FranchiseComponent } from './pages/franchise/franchise.component';
+import { DisFranchiseComponent } from './pages/dis-franchise/dis-franchise.component';
+import { FranchiselistComponent } from './pages/franchiselist/franchiselist.component';
+import { FranchiseditComponent } from './pages/franchisedit/franchisedit.component';
 
 
 @NgModule({
@@ -78,7 +81,9 @@ import { FranchiseComponent } from './pages/franchise/franchise.component';
     AddemployeeComponent,
     CalendarComponent,
     FranchiseComponent,
-    
+    DisFranchiseComponent,
+    FranchiselistComponent,
+    FranchiseditComponent,
   
   ],
   schemas: [
