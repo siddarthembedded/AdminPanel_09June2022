@@ -18,6 +18,7 @@ import { PerformanceFeedbackComponent } from './pages/performance-feedback/perfo
 import { ReportComponent } from './pages/report/report.component';
 import { ComComponent } from './pages/com/com.component';
 import { SalaryComponent } from './pages/salary/salary.component';
+
 import { ComdetailComponent } from './pages/comdetail/comdetail.component';
 import { ComdetailsclickComponent } from './pages/comdetailsclick/comdetailsclick.component';
 import { BreportComponent } from './pages/breport/breport.component';
@@ -30,7 +31,7 @@ import { FranchiseComponent} from './pages/franchise/franchise.component';
 import { DisFranchiseComponent } from './pages/dis-franchise/dis-franchise.component';
 import { FranchiselistComponent } from './pages/franchiselist/franchiselist.component';
 import { FranchiseditComponent } from './pages/franchisedit/franchisedit.component';
-
+import { ReferComponent } from './pages/refer/refer.component';
 const routes: Routes = [
   {path:"header",component:HeaderComponent},
   {path: "home", component: HomeComponent},
@@ -59,14 +60,16 @@ const routes: Routes = [
   {path:"calendar",component:CalendarComponent},
   {path:"franchise" ,component:FranchiseComponent},
   {path:"dis-franchise",component:DisFranchiseComponent},
-  {path:"franchiselist",component:FranchiselistComponent},
-  {path:"franchisedit",component:FranchiseditComponent}
+  {path:'franchiselist',component:FranchiselistComponent},
+  {path:"franchisedit",component:FranchiseditComponent},
+  {path:"refer",component:ReferComponent}
 ];
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule,  RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes)
   ],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+// export const ArrayOfComponents = [FranchiselistComponent,FranchiseditComponent]

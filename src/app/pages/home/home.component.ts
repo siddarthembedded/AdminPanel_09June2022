@@ -7,13 +7,20 @@ import { Component, OnInit } from '@angular/core';
 
   
 })
-export class HomeComponent implements OnInit {
-  shouldRun = /(^|.)(stackblitz|webcontainer).(io|com)$/.test(window.location.host);
-  showFiller = false;
+// export class HomeComponent implements OnInit {
+//   shouldRun = /(^|.)(stackblitz|webcontainer).(io|com)$/.test(window.location.host);
+//   showFiller = false;
+//   constructor() { }
+//   ngOnInit(): void {
+
+//   }
+  
+// }
+
+export class HomeComponent implements OnInit {  
   constructor() { }
   ngOnInit(): void {
 
   }
   
 }
-

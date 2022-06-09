@@ -17,12 +17,12 @@
                 <ul class="disabled nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
                     id="menu">
                     <li class="nav-item ">
-                        <a href="#" class="nav-link align-middle px-0 disabled">
+                        <a [routerLink]="['/franchise']" class="nav-link align-middle px-0">
                             <span class="  ms-1 d-none d-sm-inline ">New</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" data-bs-toggle="collapse" class="  nav-link px-0 align-middle">
+                        <a [routerLink]="['/franchisedit']" data-bs-toggle="collapse" class="  nav-link px-0 align-middle">
                             <span class="ms-1 d-none d-sm-inline active ">Edit</span>
                         </a>
                     </li>
@@ -177,8 +177,8 @@
 
                     </div>
                     <div class="col-md-5">
-                        <button type="submit" class="btn btn-primary me-3">Edit</button>
-                        <button type="submit" class="btn btn-light">Cancel</button>
+                        <button type="submit" class="btn1 btn btn-primary me-3">Edit</button>
+                        <button type="submit" class="btn2 btn btn-light">Cancel</button>
                     </div>
                 </div>
             </form>

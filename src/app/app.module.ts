@@ -48,6 +48,7 @@ import { FranchiseComponent } from './pages/franchise/franchise.component';
 import { DisFranchiseComponent } from './pages/dis-franchise/dis-franchise.component';
 import { FranchiselistComponent } from './pages/franchiselist/franchiselist.component';
 import { FranchiseditComponent } from './pages/franchisedit/franchisedit.component';
+import { ReferComponent } from './pages/refer/refer.component';
 
 
 @NgModule({
@@ -84,7 +85,8 @@ import { FranchiseditComponent } from './pages/franchisedit/franchisedit.compone
     DisFranchiseComponent,
     FranchiselistComponent,
     FranchiseditComponent,
-  
+    ReferComponent,
+    
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
@@ -95,6 +97,7 @@ import { FranchiseditComponent } from './pages/franchisedit/franchisedit.compone
     MatToolbarModule, MatIconModule, FlexLayoutModule,AppRoutingModule,RouterModule, 
    ],
   providers: [],
-  bootstrap: [AppComponent,HomeComponent]
+  // bootstrap: [AppComponent,HomeComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

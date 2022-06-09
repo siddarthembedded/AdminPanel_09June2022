@@ -32,7 +32,7 @@
         </button> 
        
         <li class="nav-item bg-light">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" [routerLink]="['/home']" aria-current="page" >Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
@@ -51,93 +51,92 @@
       <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
         <li><a class="dropdown-item" href="#">Add Products</a></li>
       </ul>
-
     </li> -->
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <a class=" nav1 nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
        Product
       </a>
       <ul class="dropdown-menu" aria-labelledby ="navbarScrollingDropdown">
-        <li><a class="dropdown-item" href="#">Add Products</a></li>
+        <li><a class="    dropdown-item" [routerLink]="['/addproduct']">Add Products</a></li>
         
       </ul>
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <a class=" nav1  nav-link dropdown-toggle"  id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         Orders
       </a>
       <ul class="dropdown-menu" aria-labelledby ="navbarScrollingDropdown">
-        <li><a class="dropdown-item" href="#">Manage Orders</a></li>
-        <li><a class="dropdown-item" href="#">Order Reports</a></li>   
+        <li><a class="   dropdown-item"  [routerLink]="['/ordermo']">Manage Orders</a></li>
+        <li><a class="  dropdown-item"  [routerLink]="['/ordereport']">Order Reports</a></li>   
       </ul>
     </li>
 
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <a class=" nav1  nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
        Inventory
       </a>
       <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
-        <li><a class="dropdown-item" href="#">Manage Inventory</a></li>
-        <li><a class="dropdown-item" href="#">Add a Product</a></li>    
-        <li><a class="dropdown-item" href="#">Upload Images</a></li>    
-        <li><a class="dropdown-item" href="#">Upload & Manage</a></li>    
-        <li><a class="dropdown-item" href="#">Videos</a></li>        
+        <li><a class="  dropdown-item" [routerLink]="['/inventory']">Manage Inventory</a></li>
+        <!-- <li><a class="dropdown-item" [routerLink]="['/addproduct']">Add a Product</a></li>    
+        <li><a class="dropdown-item" [routerLink]="['/addpro-image']">Upload Images</a></li>    
+        <li><a class="dropdown-item" >Upload & Manage</a></li>    
+        <li><a class="dropdown-item" [routerLink]="['/video']">Videos</a></li>         -->
       </ul>
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
       Franchise
       </a>
       <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
-        <li><a class="dropdown-item" href="#">Comission</a></li>
-        <li><a class="dropdown-item" href="#">Add Franchise</a></li>       
+        <li><a class="dropdown-item" [routerLink]="['/com']">Comission</a></li>
+        <li><a class="dropdown-item" [routerLink]="['/franchise']">Add Franchise</a></li>       
       </ul>
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
        Employee
       </a>
       <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
-        <li><a class="dropdown-item" href="#">Salary</a></li>
-       
+        <li><a class="dropdown-item" [routerLink]="['/addemployee']">Add</a></li>
+        <li><a class="dropdown-item" [routerLink]="['/payemployee']">Update</a></li>
       </ul>
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         Discounts
       </a>
       <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
-        <li><a class="dropdown-item" href="#">Franchise</a></li>
-        <li><a class="dropdown-item" href="#">Product</a></li>   
+        <li><a class="dropdown-item" [routerLink]="['/dis-franchise']">Franchise</a></li>
+        <li><a class="dropdown-item" [routerLink]="['/inventory']">Product</a></li>   
       </ul>
     </li>
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
        Reports
       </a>
       <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
-        <li><a class="dropdown-item" href="#">Payments</a></li>
-        <li><a class="dropdown-item" href="#">Business Reports</a></li>   
+        <li><a class="dropdown-item" [routerLink]="['/salary']">Payments</a></li>
+        <li><a class="dropdown-item" [routerLink]="['/report']">Business Reports</a></li>   
         
       </ul>
     </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <!-- <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         Growth
       </a>
       <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
-        <li><a class="dropdown-item" href="#">Refer a Friend</a></li>
+        <li><a class="dropdown-item"  [routerLink]="['/refer']">Refer a Friend</a></li>
            
-      </ul>
-    </li>
+      </ul> 
+    </li>-->
 
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         Performance
       </a>
       <ul class="dropdown-menu" aria-labelledby ="navbarDropdown">
         <!-- <li><a class="dropdown-item" href="#">Account Health</a></li> -->
-        <li><a class="dropdown-item" href="#">Feedback</a></li>   
+        <li><a class="dropdown-item" [routerLink]="['/performance-feedback']">Feedback</a></li>   
         <!-- <li><a class="dropdown-item" href="#">Message from the customer </a></li>    -->
       </ul>
     </li>
@@ -161,11 +160,11 @@
    
 
     <li class="nav-item">
-      <a class="nav-link" href="#">Holiday</a>
+      <a class="nav-link"[routerLink]="['/calendar']">Holiday</a>
     </li>
-    <li class="nav-item">
+    <!-- <li class="nav-item">
       <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">AppStore</a>
-    </li>
+    </li> -->
   </ul>
     
   <!-- </div> -->

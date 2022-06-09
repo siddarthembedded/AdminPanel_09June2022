@@ -20,7 +20,7 @@
                                     <th scope="col" width="10%"> MRP</th>
                                     <th scope="col" width="10%"> Discount</th>
                                     <th scope="col" width="10%"> Price +Shipping </th>                         
-                                    <th scope="col" width="15%>"> <button class="dropbtn btn-outline-primary">Save all</button> </th>
+                                    <th scope="col" width="15%>"> <button class="btn1 dropbtn btn-outline-primary">Save all</button> </th>
 
                                 </tr>
                             </thead>
@@ -45,17 +45,17 @@
                                     <td> Paperback </td>
                                     <td> English Handwriting Improvement Kit </td>
                                     <td> 23/02/2022 11:46:50 </td>
-                                    <td> <input type="text" class="form-control " placeholder="100" maxlength="8"> </td>
+                                    <td> <input type="text" class="form-control " placeholder="100" maxlength="8" readonly> </td>
                                     <td>
                                         <span class="input-group-text"> &#x20B9;&nbsp;
                                             <input type="text" class="form-control " placeholder="100"
-                                                maxlength="23">.00</span>
+                                                maxlength="23"readonly>.00</span>
                                                 <p class="text-start ms-3"> + &nbsp;&#x20B9;60.00</p>
                                     </td>
                                     <td>
                                         <span class="input-group-text"> &#x20B9;&nbsp;
                                             <input type="text" class="form-control" maxlength="15" placeholder="2000"
-                                                aria-label="PS">.00</span>
+                                                aria-label="PS"readonly>.00</span>
 
                                     </td>
                                     <!-- <td>
@@ -67,7 +67,8 @@
                                     </td> -->
                                     <td>
                                         <div class="dropdown">
-                                            <button class="dropbtn btn-outline-primary">Edit</button>
+                                            <button class="btn1 dropbtn btn-outline-primary" routerLink='/addproduct'>Edit</button>
+                                            <!-- <button type="button" class="btn btn-primary" routerLink='/franchisedit'>Primary</button> -->
                                             <div class="dropdown-content">
                                                 <a href="#">Manage Product</a>
                                                 <!-- <a href="#">Link 2</a>

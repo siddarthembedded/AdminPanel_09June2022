@@ -53,15 +53,20 @@ a:focus {
    
     
 }
-.nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); color:#790666;}
-.navbar-light .navbar-nav .nav-link:hover {
+.nav-item:hover 
+.dropdown-menu
+{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); color:#790666;}
+
+/* .navbar-light .navbar-nav .nav-link .nav :hover */
+.nav1:hover
+ {
     color: #fff;
     background-color: #790666;
     font-size: 14px;
     font-family: 'Lato',sans-serif;
     
     }
-    
+   
     /* .fade-up{ top:180%;  } */
     
 /* .btnsignin{

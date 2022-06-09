@@ -44,7 +44,6 @@
     </div>
 </nav>
 
-
 <!-- Tabs or Pills can be used in a card with the help of .nav-{tabs|pills} and .card-header-{tabs|pills} classes -->
 <div class="card">
    
@@ -86,11 +85,16 @@
                             <td>Hyderabad</td>
                             
                             
-                            <td> <i class="update fa fa-edit"></i></td>
+                            <td> 
+                                <!-- <a class="nav-link" [routerLink]="['/footer']">Contact us</a> -->
+                              <a class="edit" [routerLink]="['/franchisedit']"> <i class="update fa fa-edit"></i> </a>  
+                               
+                            
+                            </td>
                             <td> <i class="trash fas fa-trash"></i></td>
                             <!-- <td> <button class=" btn-outline-primary">Next</button></td>
                             <td> <button class=" btn-outline-primary">Back</button></td> -->
-                            <!-- <td> <button class=" btn-outline-primary">Print</button></td> -->
+                            <td> </td>
                         </tr>
                     </tbody>
                 </table>

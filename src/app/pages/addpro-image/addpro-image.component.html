@@ -31,7 +31,7 @@
     <div class="col-md-8">
       <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> </a>
+          <a class="navbar-brand"> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -40,16 +40,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav text-center me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">Product Info</a>
+                <a class="nav-link " aria-current="page" [routerLink]="['/addproduct']">Product Info</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#">Offer</a>
+                <a class="nav-link " [routerLink]="['/addpro-offer']">Offer</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link  active" href="#">Images</a>
+                <a class="nav-link  active" [routerLink]="['/addpro-image']">Images</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Description & Keywords</a>
+                <a class="nav-link"[routerLink]="['/addpro-des']">Description & Keywords</a>
               </li>
               <!-- <li class="nav-item">
                                 <a class="nav-link" href="#">Keywords</a>
@@ -71,8 +71,8 @@
           </div>
           <div class="col-md-6 mt-4"> 
             <!-- <button class="btn btn-primary me-3" type="submit ">Submit</button> -->
-            <button type="submit" class="btn btn-primary me-3">Save and Finish</button>
-            <button type="submit" class="btn btn-light">Cancel</button>
+            <button type="submit" class="btn1 btn-primary me-3">Save and Finish</button>
+            <button type="submit" class="btn2 btn-light">Cancel</button>
           </div>
         </div>
         <div class="row  mt-3">
@@ -114,7 +114,7 @@
                
                 <img *ngFor='let url of images'  [src]="url" height="200px" width="200px" style="margin: 3px; max"> <br/>
                    
-                <button class="btn btn-primary" type="submit">Submit</button>
+                <button class="btn1 btn-primary" type="submit">Submit</button>
           
                 <!-- <div class="preview-wrapper">
                   <div class="img-preview" *ngFor='let url of images'>
