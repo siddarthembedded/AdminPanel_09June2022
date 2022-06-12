@@ -26,3 +26,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 AEA admin panel
+# AdminPanel_10May2022
+# AdminPanel_09June2022
